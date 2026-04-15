@@ -39,3 +39,10 @@ Go to https://www.prisma.io/docs/orm/more/troubleshooting/nextjs
 
 Most important point:
 Add "postinstall": "prisma generate" in scripts section in package.json before deployment.
+
+If stuck in deployement in vercel:
+1. npm uninstall prisma
+2. npm install prisma
+3. npx prisma generate
+4. npm install
+5. npm run build
