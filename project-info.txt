@@ -36,3 +36,6 @@ To add shadcn ui components:
 
 Best practices for using Prisma Client in Next.js development:
 Go to https://www.prisma.io/docs/orm/more/troubleshooting/nextjs
+
+Most important point:
+Add "postinstall": "prisma generate" in scripts section in package.json before deployment.
